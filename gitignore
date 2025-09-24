@@ -1,0 +1,24 @@
+# OS
+.DS_Store
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+
+# Virtual env
+.venv/
+venv/
+
+# IDE / Editor
+.idea/
+.vscode/
+
+# Env / Secrets
+.env
+
+# Runtime data (uygulama kendi üretir)
+data/*.json
+data/*.log
+!data/.gitkeep
